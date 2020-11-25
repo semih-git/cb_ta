@@ -27,6 +27,10 @@ public class GoogleSearchAssignment {
 		courses.click();
 		Thread.sleep(2000);
 		
+		WebElement testautomation = driver.findElement(By.xpath("//li[@id='menu-item-6538']/a"));
+		testautomation.click();
+		Thread.sleep(2000);
+		
 		
 		
 		Thread.sleep(3000);
