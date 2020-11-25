@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * Hello world!
  *
  */
-public class googleSearchAssigment 
+public class OldGoogleSearchAssignment 
 {
     public static void main( String[] args ) throws InterruptedException
     {
