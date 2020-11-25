@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GoogleSearchAssignment {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\laptop\\git\\cb_ta\\tamaven2\\webdrivers\\chromedriver.exe");
 		
@@ -18,6 +18,7 @@ public class GoogleSearchAssignment {
 		q.sendKeys("codingbook");
 		
 		
+		Thread.sleep(2000);
 		driver.close();
 
 	}
