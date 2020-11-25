@@ -39,6 +39,9 @@ public class GoogleSearchAssignment {
 		basicTaAssignments.click();
 		Thread.sleep(2000);
 		
+		WebElement youtube = driver.findElement(By.xpath("//a[contains(text(), 'youtube')]"));
+		youtube.click();
+		Thread.sleep(2000);
 		
 		
 		
