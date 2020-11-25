@@ -31,10 +31,20 @@ public class GoogleSearchAssignment {
 		testautomation.click();
 		Thread.sleep(2000);
 		
+		WebElement curriculum = driver.findElement(By.xpath("//div[@id='learn-press-course-tabs']/ul/li[2]/a"));
+		curriculum.click();
+		Thread.sleep(2000);
+		
+		WebElement basicTaAssignments = driver.findElement(By.xpath("//span[contains(text(), 'Basic Test Automation – Assignments')]"));
+		basicTaAssignments.click();
+		Thread.sleep(2000);
+		
+		
 		
 		
 		Thread.sleep(3000);
 		driver.close();
+		System.out.println("test succesfully completed.");
 
 	}
 
