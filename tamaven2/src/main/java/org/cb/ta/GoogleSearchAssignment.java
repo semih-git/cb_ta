@@ -17,11 +17,15 @@ public class GoogleSearchAssignment {
 		WebElement q = driver.findElement(By.xpath("//input[@name=\"q\"]"));
 		q.sendKeys("codingbook");
 		q.submit();
+		Thread.sleep(2000);
 		
 		WebElement cbLink = driver.findElement(By.xpath("(//div[@class='g']//a)[1]"));
 		cbLink.click();
+		Thread.sleep(2000);
 		
-		
+		WebElement courses = driver.findElement(By.xpath("//li[@id=\"menu-item-6539\"]/a"));
+		courses.click();
+		Thread.sleep(2000);
 		
 		
 		
