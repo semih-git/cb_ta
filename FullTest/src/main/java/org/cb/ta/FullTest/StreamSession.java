@@ -31,7 +31,7 @@ public class StreamSession {
 	for(int i=0; i<numbers.size();i++) {
 		Integer integer = numbers.get(i);
 		if(integer%2==0) {
-			System.out.print("  "+ integer);
+			System.out.print(" "+ integer);
 		}
 	}	
 	System.out.println();
@@ -48,7 +48,17 @@ public class StreamSession {
 	System.out.println(evens);
 	System.out.println(numbers);
 	
-	//assignment
+	//ASSIGNMENT--ASSIGNMENT--ASSIGNMENT--ASSIGNMENT--ASSIGNMENT--ASSIGNMENT--ASSIGNMENT--
+	//double array with for loop
+	for(int i=0; i<numbers.size();i++) {
+		Integer integer = numbers.get(i);
+		if(integer%2==0) {
+			System.out.print(" "+ integer*2);	
+		}			
+	}	
+	System.out.println();
+	
+	//double array using stream API-lambda functions
 	//of
 	Stream.of(numbersArray)
 		 	.filter((Integer number)->(number %2==0))
